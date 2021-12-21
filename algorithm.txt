@@ -1,0 +1,18 @@
+What is the A* Path Finding Algorithm?
+
+    "A* (pronounced "A-star") is a graph traversal and path search algorithm,
+    which is often used in many fields of computer science due to its completeness,
+    optimality, and optimal efficiency.[1] One major practical drawback is its
+    space complexity, as it stores all generated nodes in memory.
+    Thus, in practical travel-routing systems, it is generally outperformed
+    by algorithms which can pre-process the graph to attain better performance,[2]
+    as well as memory-bounded approaches; however, A* is still the best solution in many cases.[3]"
+    (from https://en.wikipedia.org/wiki/A*_search_algorithm)
+
+
+The algorithm utilizes an important formula which establishes the foundation for this AI:
+
+        f(n)=g(n)+h(n)
+
+Where (n) is the next 'node' on the path, g(n) is the cost of the path from start to finish and h(n)
+is a heuristic function that guesses the cost of the cheapest path from point 'A' to the goal. 
